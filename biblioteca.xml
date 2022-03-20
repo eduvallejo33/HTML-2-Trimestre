@@ -1,31 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet  href='biblioteca.css'?>
-
-<biblioteca xmlns="http://www.w3.org/1999/xhtml">
-  <texto>viewport muy estrecho</texto>
+<?xml-stylesheet type="text/xsl" href="biblioteca.xsl"?>
+<?xml-stylesheet href="biblioteca.css"?>
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/Alba/Desktop/Lenguaje%20de%20marcas/Segundo%20trimestre/FinalTrimestre2/biblioteca.xsd">
   <libro>
-    <foto>
-    <img src="senda.webp"/>
-    </foto>
-    <titulo>La siesta de senda</titulo>
-    <autor>Milan Kundera</autor>
-    <fechaPublicacion/>
-  </libro>
-  <libro>
-    <foto>
-    <img src="summer.webp"/>
-  </foto>
+    <foto>summer.webp</foto>
     <titulo>Summer</titulo>
-    <autor fechaNacimiento="28/03/1936">Mario Vargas Llosa</autor>
-    <fechaPublicacion año="1973"/>
+  </libro>
+  
+  <libro>
+    <foto>senda.webp</foto>
+    <titulo>Senda</titulo>
   </libro>
   <libro>
-    <foto>
-    <img src="miki.webp"/>
-    </foto>
-    <titulo>Miki pensando</titulo>
-    <autor fechaNacimiento="28/03/1936">Mario Vargas Llosa</autor>
-    <fechaPublicacion año="1969"/>
+    <foto>miki.webp</foto>
+    <titulo>Miki</titulo>
   </libro>
-  <button type="button">invertir</button>
 </biblioteca>
