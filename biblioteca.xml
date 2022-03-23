@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="biblioteca.xsl"?>
+<?xml-stylesheet href="biblioteca.css"?>
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="biblioteca.xsd">
+	<libro>
+		<foto>miki.webp</foto>
+		<titulo>Miki</titulo>
+	</libro>
+	<libro>
+		<foto>senda.webp</foto>
+		<titulo>Senda</titulo>
+	</libro>
+	<libro>
+		<foto>summer.webp</foto>
+		<titulo>Summer</titulo>
+	</libro>
+</biblioteca>
